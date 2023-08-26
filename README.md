@@ -13,8 +13,15 @@
 * Within the KaisenCoinCrowdsale constructor, provide parameters such as `rate`, `wallet`, and `token`. 
 
 ### Step 3: Create the KaseiCoin deployer contract.
-* 
-
+* Create an `address public` variable called `kasei_token_address`
+* Create an `address public` variable called `kasei_crowdsale_address`
+* Add the following parameters to the constructor for the KaseiCoinCrowdsaleDeployer contract: `name`, `symbol`, and `wallet`.
+* Create the KaseiCoin token by using a new instance with parameters `name` and `symbol`, and by setting the initial_supply parameter to `0`.
+* Assign the KaseiCoin token contract’s address to the `kasei_token_address` variable.
+* Create a new instance using the following parameters: `rate`, `wallet`, `token`.
+* Assign the KaseiCoin crowdsale contract’s address to the `kasei_crowdsale_address` variable.
+* Set the `KaseiCoinCrowdsale` contract as a minter.
+* Have the `KaseiCoinCrowdsaleDeployer` **renounce** its minter role.
 
 ### Step 4: Perform a real-world, pre-production test by using Remix, MetaMask, and Ganache.
 
@@ -27,7 +34,7 @@
 
 ![Screenshot 1](2.PNG)
 
-
+![Screenshot 1](3.PNG)
 
 
 
