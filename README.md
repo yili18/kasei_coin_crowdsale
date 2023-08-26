@@ -19,7 +19,7 @@
 
 
 
-### Step 5: Screenshots to show the deployed contract in action.
+### Step 5: Evaluation Evidence - screenshots to show the deployed contract in action.
 
 
 
