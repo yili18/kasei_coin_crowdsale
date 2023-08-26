@@ -25,8 +25,9 @@
 
 ![Screenshot 1](1.PNG)
 
+![Screenshot 1](2.PNG)
 
 
 
 
-Optional: Use OpenZeppelin to extend the functionality of your crowdsale contract by adding time restrictions, refund capabilities, and a cap for the number of tokens that may be created.
+
