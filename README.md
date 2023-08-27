@@ -24,7 +24,6 @@
 * Have the `KaseiCoinCrowdsaleDeployer` **renounce** its minter role.
 
 ### Step 4: Deploy the crowdsale to a local blockchain using Remix, MetaMask, and Ganache.
-* Share a video
 [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/yili18/kasei_coin_crowdsale/raw/main/KaseiCoin_Crowdsale.mkv)
 
 ### Step 5: Evaluation Evidence - screenshots to show the deployed contract in action.
